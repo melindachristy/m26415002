@@ -1,0 +1,23 @@
+ubuntu
+- opensource
+- boot time cepat
+- tidak terlalu user friendly
+- 
+
+Nama Kelompok:
+- Melinda Christy R.	(26415002)
+- Dieni Lucky P.	(26415135)
+- Yunike Christina	(26415169)
+
+The Cathedral of Bazaar
+- pembuatan proyek ini tidak hanya tentang efektivitas open source, melainkan bagaimana Linux dapat memberikan pengaruh
+- programmer yg baik, tahu akan apa yang akan dia buat / coding, karena itu berasal dari keinginan dirinya sendiri
+- sebagai programmer, harus sering-sering cari tahu tentang problem yang sedang dihadapi, supaya bisa solving problemnya
+- jika sudah jenuh dan tidak dapat berpikir lagi, sebaiknya refshingkan diri sejenak
+- harus bikin program yang user friendly
+
+cara konekin github dengan ssh
+- cari private key nya ssh dulu
+- buka file .ssh di ssh
+- copy id / private key dari ssh ke github
+- git clone (copy ssh clone di github)
