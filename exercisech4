@@ -1,0 +1,37 @@
+mkdir projects
+cd projects
+touch house{1..9}
+
+cd projects
+mkdir houses
+cd houses
+touch bungalow.txt
+mkdir doors
+cd doors
+touch bifold.txt
+cd
+cd projects
+mkdir outdoors
+cd outdoors
+mkdir vegetation
+cd vegetation
+touch landscape.txt
+cd
+
+cp $HOME/projects/house1 $HOME/projects/houses/
+cp $HOME/projects/house5 $HOME/projects/houses/
+
+cp -ra /usr/share/doc/initscripts* $HOME/projects/
+
+cd projects
+ls | less
+
+rm house{6,7,8}
+
+mv house{3,4} $HOME/projects/houses/doors
+
+rm -rf $HOME/projects/houses/doors
+
+chmod 640 $HOME/projects/house2
+
+chmod -r -w projects
