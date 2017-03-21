@@ -1,0 +1,38 @@
+exit
+edit --> settings --> colors
+
+type mount
+mount is /bin/mount
+man tracepath
+
+cat /etc/passwd
+ls $HOME
+date
+cat /etc/group
+ls $HOME
+date +'%B/%A/%Y'
+
+basen<Tab>
+fing<Tab>
+echo $OS<Tab>
+cat /etc/services | less
+q
+
+date +'%A, %B %d, %Y'
+echo "Today is " $(date +'%A, %B %d, %Y')
+
+hostname
+username
+uname
+echo $shell
+echo $home
+echo $shell
+echo $home
+echo $SHELL
+echo $HOME
+
+alias mypass='cat /etc/passwd'
+mypass
+
+man mount
+

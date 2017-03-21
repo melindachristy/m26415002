@@ -1,0 +1,14 @@
+chap 1
+Linux --> google, android
+Linux --> computer operating system
+*operating system : software yg manage computer dan juga bisa run applications
+- detecting and preparing hardware
+- manage proses --> proses mana yang harus jalan, berhenti, atau di interupt
+- manage memory
+- providing user interface --> awalnya mengakses linux pakai shell
+- controlling filesystem --> kontrol ownership aksesdan directory dar filesystem
+- providing user access and authentication
+- offering administrative utilities
+- starting up services --> Linux provides different ways of starting and stopping services
+- programming tools -->
+
