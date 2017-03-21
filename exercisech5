@@ -1,0 +1,18 @@
+:g/tcp/s//WHATEVER/g
+
+locate dev/null
+
+mkdir TEST
+cd TEST
+touch one two three
+chmod 777 one two three
+cd
+
+find -perm -002 -ls
+
+find /usr/share/doc -mtime +300
+
+find /usr/share -size +5M -size -10M
+find /usr/share -size +5M -size -10M -exec cp {} ~/FILES \;
+
+find FILES -exec cp {} {}.mybackup \;
