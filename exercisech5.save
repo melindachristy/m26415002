@@ -1,0 +1,18 @@
+:g/tcp/s//WHATEVER/g
+
+locate dev/null
+
+mkdir TEST
+cd TEST
+touch one two three
+chmod 777 one two three
+find -perm -002 -ls find /usr/share/doc -mtime +300
+   1785  history
+7. 1809  find /usr/share -size +5M -size -10M
+   1810  find /usr/share -size +5M -size -10M -exec cp {} ~/FILES \;  (membuat folder files diluar tmp)
+   1811  cd FILES
+   1812  ls -1
+8. 1802  find FILES -exec cp {} {}.mybackup \;
+   1803  ls -1
+   1804  cd FILES
+1805 ls -1

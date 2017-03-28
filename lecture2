@@ -1,0 +1,52 @@
+date --help
+man date
+apropos date
+whatis date
+info date
+pinfo date
+file
+stat
+file lala
+ls -al
+mkdir lala
+ls -al
+file lala
+stat lala
+lsattr lala
+lsattr .md
+find lala
+find lolo
+cd
+find lala
+cd m26415002
+which lala
+whereis lala
+head lala
+rm lala
+rmdir lala
+touch lala
+pwd
+file lala
+nano lala
+file lala
+stat lala
+lsattr lala
+chattr lala
+find teletubies
+find lala
+head lala
+nano lala
+head lala
+tail lala
+cat lala
+cat head lala
+grep lala
+cat lala
+wc lala
+grep dipsy
+who
+w
+top
+free
+cal
+vi lala
