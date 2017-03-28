@@ -1,0 +1,12 @@
+ps u
+ps ux
+ps ux | less
+ps aux
+ps -o 'user,pid'
+find /usr > /tmp/allusrfiles &
+jobs
+man ps
+ps -e | less
+ps -ef | less
+ps -ef --sort=user | less
+ps -eo 'pid,user,group,vsz,rss,comm' | less
