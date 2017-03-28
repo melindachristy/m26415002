@@ -1,0 +1,23 @@
+date
+date +%Y-%m-%d:%H:%M:%S
+grep "MHz" /proc/cpuinfo
+cp coba.py lab01-26415002.sh
+ls -al
+cd lab01-26415002.sh
+lab01-26415002.sh
+home
+$HOME
+echo $HOME
+cp lab01-26415002.sh /home/TOS-B
+cp lab01-26415002.sh TOS-B
+cd $HOME/TOS-B
+l -al
+ls -al
+cd TOS-B
+rm -rf TOS-B
+mkdir TOS-B
+cp lab01-26415002.sh /home/TOS-B
+cp lab01-26415002.sh /$HOME/TOS-B
+ls -al
+cd TOS-B
+ls -al
