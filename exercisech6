@@ -10,3 +10,4 @@ ps -e | less
 ps -ef | less
 ps -ef --sort=user | less
 ps -eo 'pid,user,group,vsz,rss,comm' | less
+
