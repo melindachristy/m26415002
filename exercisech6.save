@@ -1,0 +1,20 @@
+ps ux | less
+     1917  who
+     1918  clear
+     1919  ps aux
+     1920  clear
+     1921  ps -o 'user,pid'
+     1922  top
+     1923  clear
+     1924  history
+     1925  find /usr > /tmp/allusrfiles &
+     1926  jobs
+     1927  fg % 2
+     1928  jobs
+     1929  man ps
+     1930  clear
+     1931  ps -e | less
+     1932  ps -ef | less
+     1933  ps -ef --sort=user | less
+     1934  ps -eo 'pid,user,group,vsz,rss,comm' | less
+4. top, p, M
