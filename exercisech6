@@ -10,4 +10,6 @@ ps -e | less
 ps -ef | less
 ps -ef --sort=user | less
 ps -eo 'pid,user,group,vsz,rss,comm' | less
-
+gedit&
+nice -n 7 21578
+ps -ep 'pid,user,nice,comm' | grep gedit
