@@ -1,3 +1,11 @@
+p /etc/services /tmp
+vim /tmp/services
+/WWW
+
+vim /tmp/services
+/hello world
+
+vim /tmp/services
 :g/tcp/s//WHATEVER/g
 
 locate dev/null
@@ -12,7 +20,10 @@ find -perm -002 -ls
 
 find /usr/share/doc -mtime +300
 
+mkdir /tmp/files
 find /usr/share -size +5M -size -10M
-find /usr/share -size +5M -size -10M -exec cp {} ~/FILES \;
+find /usr/share -size +5M -size -10M -exec cp {} /tmp/files
 
-find FILES -exec cp {} {}.mybackup \;
+find /tmp/files -exec cp {} {}.mybackup
+
+cd /usr/share/doc/kernel.doc
