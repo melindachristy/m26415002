@@ -8,3 +8,14 @@ echo "You are in $(pwd) and your host is $(hostname)"
 
 bash myownscript
 chmod 755 myownscript
+
+vim parameter
+#!/bin/bash
+ONE=$1
+TWO=$2
+THREE=$3
+
+echo "There are $# parameters that include $@."
+echo "The first is $ONE, the scond is $TWO , the third is $THREE ."
+
+bash parameter
